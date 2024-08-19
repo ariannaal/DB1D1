@@ -1,0 +1,7 @@
+INSERT INTO public.prodotti(
+	id_prodotto, descrizione, in_produzione, in_commercio, data_attivazione, data_disattivazione)
+	VALUES 
+	(1, 'playstation', true, true, '2015-01-01', '2024-01-01'),
+	(2, 'libro', true, true, '2017-01-01', '2024-01-01'),
+	(3, 'computer', true, false, '2014-01-01', '2025-01-01'),
+	(4, 'macchina fotografica', false, true, '2014-01-01', '2024-01-01');

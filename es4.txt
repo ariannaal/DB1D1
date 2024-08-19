@@ -1,0 +1,9 @@
+SELECT numero_fattura from public.fatture
+where iva = 20;
+
+
+
+
+
+
+

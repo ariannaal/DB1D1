@@ -1,0 +1,4 @@
+SELECT fatture.numero_fattura, fatture.tipologia, fatture.importo, clienti.numero_cliente, clienti.nome, clienti.cognome, clienti.anno_di_nascita, clienti.regione_residenza from public.fatture
+join public.clienti on fatture.id_cliente = clienti.numero_cliente
+where importo < 1000;
+

@@ -1,0 +1,3 @@
+SELECT * from public.prodotti
+where EXTRACT(YEAR FROM data_attivazione) = 2017
+and (in_produzione = true or in_commercio = true);

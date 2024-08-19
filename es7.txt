@@ -1,0 +1,3 @@
+SELECT fatture.numero_fattura, fatture.importo, fatture.iva, fatture.data_fattura, fornitori.denominazione from public.fatture
+join public.fornitori on fatture.numero_fornitore = fornitori.numero_fornitore
+

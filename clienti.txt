@@ -1,0 +1,7 @@
+INSERT INTO public.clienti(
+	numero_cliente, anno_di_nascita, regione_residenza, nome, cognome)
+	VALUES
+    (9, 1982, 'Lombardia', 'Mario', 'Rossi'),
+    (10, 1975, 'Lazio', 'Luigi', 'Verdi'),
+    (12, 1990, 'Sicilia', 'Anna', 'Bianchi'),
+	(6, 1990, 'Sardegna', 'Mario', 'Bros');

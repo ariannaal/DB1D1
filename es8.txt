@@ -1,0 +1,5 @@
+SELECT 
+    EXTRACT(YEAR FROM data_fattura) AS anno FROM public.fatture
+WHERE iva = 20
+GROUP BY EXTRACT(YEAR FROM data_fattura)
+ORDER BY anno

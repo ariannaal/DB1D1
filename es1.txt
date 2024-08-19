@@ -1,0 +1,3 @@
+SELECT * FROM public.clienti
+where Nome = 'mario'
+ORDER BY numero_cliente ASC 

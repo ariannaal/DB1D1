@@ -1,0 +1,8 @@
+INSERT INTO public.fornitori(
+	numero_fornitore, denominazione, regione_residenza)
+	VALUES
+	(1, 'Fornitore 1', 'Lombardia'),
+	(2, 'Fornitore 2', 'Lazio'),
+	(3, 'Fornitore 3', 'Trentino'),
+	(4, 'Fornitore 4', 'Piemonte'),
+	(5, 'Fornitore 5', 'Valle d Aosta');
